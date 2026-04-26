@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ChatAPP">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="19" width="335" height="546"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <autoscrolls value="false"/>
+      <background color="-16777216"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <focusable value="true"/>
+      <requestFocusEnabled value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <component id="c244f" class="javax.swing.JLabel" binding="Logged">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="231" height="13"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-394241"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="0"/>
+          <labelFor value="3eee4"/>
+          <text value="Logged In as: "/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="4f15f" class="javax.swing.JButton" binding="sendButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777168"/>
+          <foreground color="-394241"/>
+          <text value="Send"/>
+        </properties>
+      </component>
+      <component id="3eee4" class="javax.swing.JTextField" binding="UserText">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12631740"/>
+          <foreground color="-394241"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <scrollpane id="50dc4" binding="messagges_scroll">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12631740"/>
+          <focusable value="true"/>
+          <foreground color="-12631740"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <scrollpane id="23fc7">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalScrollBarPolicy value="31"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="72ebd" class="javax.swing.JTextArea" binding="messagges">
+            <constraints/>
+            <properties>
+              <background color="-12631740"/>
+              <columns value="0"/>
+              <foreground color="-394241"/>
+              <lineWrap value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
